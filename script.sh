@@ -28,6 +28,16 @@ echo ""
 curl -sS https://getcomposer.org/installer -o composer-setup.php
 php composer-setup.php --install-dir=/usr/bin --filename=composer
 
+echo ""
+echo "============================"
+echo "Install node 16.x"
+echo "============================"
+echo ""
+
+apt-get install -y software-properties-common
+curl -fsSL https://deb.nodesource.com/setup_16.x | sudo -E bash -
+apt-get install -y nodejs
+
 # Ensure apache2 is removed (we're using nginx)
 apt remove apache2 -y
 apt autoremove -y
