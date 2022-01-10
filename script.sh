@@ -16,7 +16,7 @@ echo "==================================================================="
 echo "Installing PHP dependencies..."
 echo "==================================================================="
 echo ""
-apt install -y ncdu curl git nginx zip php8.0 php8.0-imagick php8.0-gd php8.0-xml php8.0-mbstring php8.0-zip php8.0-mysql php8.0-sqlite3
+apt install -y ncdu curl git nginx zip php8.0 php8.0-imagick php8.0-gd php8.0-xml php8.0-mbstring php8.0-zip php8.0-mysql php8.0-sqlite3 php8.0-curl
 apt-get update && apt-get install php8.0-fpm -y
 
 echo ""
