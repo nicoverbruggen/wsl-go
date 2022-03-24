@@ -1,5 +1,11 @@
 # wsl-go
 
-quick script to set up WSL for PHP 8.0. 
+This is a quick script to set up PHP 8.1 on WSL on Windows.
 
-to use it, download the script and run `chmod +x script.sh` (to make it executable) and then run `sudo ./script.sh` (while in WSL on Ubuntu).
+To use it, make sure you're in WSL (Ubuntu), download the script and run:
+
+    chmod +x script.sh
+    
+After that, run:
+
+    sudo ./script.sh
