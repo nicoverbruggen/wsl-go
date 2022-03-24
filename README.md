@@ -2,10 +2,12 @@
 
 This is a quick script to set up PHP 8.1 on WSL on Windows.
 
-To use it, make sure you're in WSL (Ubuntu), download the script and run:
+## Setup script
 
-    chmod +x script.sh
+To use the setup script, make sure you're in WSL (Ubuntu), clone the repository, `cd` into the directory and make the setup script executable:
+
+    chmod +x ./scripts/setup.sh
     
 After that, run:
 
-    sudo ./script.sh
+    sudo ./scripts/setup.sh
